@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bpeeters/Projects/webserv_group/boris/webserv.cpp
+arpa/inet.h
+-
+fcntl.h
+-
+netinet/in.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/select.h
+-
+sys/socket.h
+-
+sys/stat.h
+-
+unistd.h
+-
+iostream
+-
+iomanip
+-
+map
+-
+string
+-
+sstream
+-
+fstream
+-
+vector
+-
+
